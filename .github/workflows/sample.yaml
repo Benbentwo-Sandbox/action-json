@@ -9,4 +9,4 @@ jobs:
 
       - run: |
           echo '::warning ${{toJson(github.event)}}'
-          echo ${{toJson(github)}}
+          echo '''${{toJson(github)}}'''

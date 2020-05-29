@@ -7,6 +7,4 @@ jobs:
     steps:
 
       - run: |
-          #echo '::warning ${{toJson(github.event)}}'
-          #echo '''${{toJson(github)}}'''
           echo URL: '''${{github.server_url}}/${{github.repository}}'''
